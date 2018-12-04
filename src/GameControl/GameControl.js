@@ -1,0 +1,2 @@
+
+var GameControl = null;

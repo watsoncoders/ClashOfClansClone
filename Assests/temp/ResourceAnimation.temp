@@ -1,0 +1,13 @@
+/*
+	Auto generate
+*/
+
+//id
+var resAniId = {
+	demoEffect: "demoEffect",@list_ani_id@
+};
+
+//path
+var resAni = {
+	demoEffect:"game/animation/effects/landmarkConstruct",@list_ani@
+};

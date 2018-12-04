@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="isometric" width="42" height="42" tilewidth="76" tileheight="57">
+ <tileset firstgid="1" name="gird" tilewidth="76" tileheight="57">
+  <image source="gird.png" width="76" height="114"/>
+ </tileset>
+ <layer name="bg2" width="42" height="42">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3QoREAMAACsXb/pSu6AIqLABP7xz1/F1doSBQaEoWG/dlXaEgUGvZnX6EhUWjYn32FhkShYX/2FRoShYb92VdoSBQa9mdfoSFRaNiffYWGRKFhf/YVGhKFhv3ZV2hIFBr2Z98HT715E5AbAAA=
+  </data>
+ </layer>
+</map>

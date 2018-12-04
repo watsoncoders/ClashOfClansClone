@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="framework">
+      <UniqueIdentifier>{2e83f4a1-ee0c-4c36-9ba0-eb6680092568}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\gui">
+      <UniqueIdentifier>{ccb7951c-8519-4165-b428-d98728432b18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\network">
+      <UniqueIdentifier>{f602b4b5-ad02-42fa-9586-c548f8500da2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\network\download">
+      <UniqueIdentifier>{db02de40-316e-4754-8d9d-8ab5dbcf7d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\network\socket">
+      <UniqueIdentifier>{dd21cb3f-e291-4d1d-bf9c-93a5fdbd9710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\platform">
+      <UniqueIdentifier>{4dfb0832-3410-494a-a68e-8619d5431084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\utility">
+      <UniqueIdentifier>{90b920d2-7b29-48c8-bd65-2d97d2272b6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\libs">
+      <UniqueIdentifier>{d936116c-febb-472f-97ff-a3f490950383}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\libs\pugixml">
+      <UniqueIdentifier>{592fc816-f1da-474b-b209-125aa43ffcdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\dragonbones">
+      <UniqueIdentifier>{18c39b4e-9083-4442-9308-82fdeed5e3ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\dragonbones\animation">
+      <UniqueIdentifier>{9dc8488c-ef03-4dd1-aa10-96218a693eca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\dragonbones\core">
+      <UniqueIdentifier>{06be9011-3f4c-44de-afdd-ec5b97d5d7bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\dragonbones\events">
+      <UniqueIdentifier>{b3600f0a-6f8a-4294-b3bf-fc751d0aeac1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\dragonbones\factories">
+      <UniqueIdentifier>{fc4e4df8-3d5b-493d-97c0-16d224f464a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\dragonbones\geoms">
+      <UniqueIdentifier>{8d232c1e-38d1-4bf3-9fb6-3d286c3ffa6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\dragonbones\objects">
+      <UniqueIdentifier>{44eae178-b45d-47a8-bf1b-449f63827c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\dragonbones\parsers">
+      <UniqueIdentifier>{3166d223-e872-4f45-bf57-28f958a8e0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\dragonbones\renderer">
+      <UniqueIdentifier>{5c7ad2ba-dfaf-4125-bbbf-da45badf053e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework\dragonbones\textures">
+      <UniqueIdentifier>{8d4b44f7-b0e9-4415-ab66-7a2bc91b8998}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\framework\network\download\Downloader.h">
+      <Filter>framework\network\download</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\network\socket\CommonSocket.h">
+      <Filter>framework\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\network\socket\DefaultSocket.h">
+      <Filter>framework\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\network\socket\GsnClient.h">
+      <Filter>framework\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\DragonBones.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\CustomClass.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\FrameworkDelegate.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\gui\GuiMgr.h">
+      <Filter>framework\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\gui\Popup.h">
+      <Filter>framework\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\gui\Screen.h">
+      <Filter>framework\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FrameworkMacros.h">
+      <Filter>framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\network\socket\PacketHeaderAnalyze.h">
+      <Filter>framework\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\network\socket\InPacket.h">
+      <Filter>framework\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\network\socket\OutPacket.h">
+      <Filter>framework\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\utility\Localization.h">
+      <Filter>framework\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\utility\DataUtility.h">
+      <Filter>framework\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\libs\pugixml\pugiconfig.hpp">
+      <Filter>framework\libs\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\libs\pugixml\pugixml.hpp">
+      <Filter>framework\libs\pugixml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\utility\StringUtils.h">
+      <Filter>framework\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\utility\Utility.h">
+      <Filter>framework\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\utility\ClientConfig.h">
+      <Filter>framework\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\animation\Animation.h">
+      <Filter>framework\dragonbones\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\animation\AnimationState.h">
+      <Filter>framework\dragonbones\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\animation\IAnimatable.h">
+      <Filter>framework\dragonbones\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\animation\TimelineState.h">
+      <Filter>framework\dragonbones\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\animation\WorldClock.h">
+      <Filter>framework\dragonbones\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\core\Armature.h">
+      <Filter>framework\dragonbones\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\core\Bone.h">
+      <Filter>framework\dragonbones\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\core\Object.h">
+      <Filter>framework\dragonbones\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\core\Slot.h">
+      <Filter>framework\dragonbones\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\events\EventData.h">
+      <Filter>framework\dragonbones\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\events\IEventDispatcher.h">
+      <Filter>framework\dragonbones\events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\factories\BaseFactory.h">
+      <Filter>framework\dragonbones\factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\textures\ITextureAtlas.h">
+      <Filter>framework\dragonbones\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\textures\TextureAtlasData.h">
+      <Filter>framework\dragonbones\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\textures\TextureData.h">
+      <Filter>framework\dragonbones\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\geoms\ColorTransform.h">
+      <Filter>framework\dragonbones\geoms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\geoms\Matrix.h">
+      <Filter>framework\dragonbones\geoms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\geoms\Point.h">
+      <Filter>framework\dragonbones\geoms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\geoms\Rectangle.h">
+      <Filter>framework\dragonbones\geoms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\geoms\Transform.h">
+      <Filter>framework\dragonbones\geoms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\renderer\DBCCArmature.h">
+      <Filter>framework\dragonbones\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\renderer\DBCCArmatureNode.h">
+      <Filter>framework\dragonbones\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\renderer\DBCCEventDispatcher.h">
+      <Filter>framework\dragonbones\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\renderer\DBCCFactory.h">
+      <Filter>framework\dragonbones\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\renderer\dbccMacro.h">
+      <Filter>framework\dragonbones\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\renderer\DBCCRenderHeaders.h">
+      <Filter>framework\dragonbones\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\renderer\DBCCSlot.h">
+      <Filter>framework\dragonbones\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\renderer\DBCCTextureAtlas.h">
+      <Filter>framework\dragonbones\renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\objects\AnimationData.h">
+      <Filter>framework\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\objects\ArmatureData.h">
+      <Filter>framework\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\objects\BoneData.h">
+      <Filter>framework\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\objects\DisplayData.h">
+      <Filter>framework\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\objects\DragonBonesData.h">
+      <Filter>framework\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\objects\EllipseData.h">
+      <Filter>framework\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\objects\Frame.h">
+      <Filter>framework\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\objects\IAreaData.h">
+      <Filter>framework\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\objects\RectangleData.h">
+      <Filter>framework\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\objects\SkinData.h">
+      <Filter>framework\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\objects\SlotData.h">
+      <Filter>framework\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\objects\TextData.h">
+      <Filter>framework\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\objects\Timeline.h">
+      <Filter>framework\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\objects\TransformFrame.h">
+      <Filter>framework\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\objects\TransformTimeline.h">
+      <Filter>framework\dragonbones\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\parsers\BaseDataParser.h">
+      <Filter>framework\dragonbones\parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\parsers\ConstValues.h">
+      <Filter>framework\dragonbones\parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\parsers\dbtinyxml2.h">
+      <Filter>framework\dragonbones\parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\parsers\XMLDataParser.h">
+      <Filter>framework\dragonbones\parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\DragonBones.h">
+      <Filter>framework\dragonbones</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\dragonbones\DragonBonesHeaders.h">
+      <Filter>framework\dragonbones</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\framework\network\download\Downloader.cpp">
+      <Filter>framework\network\download</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\network\socket\DefaultSocket.cpp">
+      <Filter>framework\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\network\socket\GsnClient.cpp">
+      <Filter>framework\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\CustomClass.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\FrameworkDelegate.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\gui\GuiMgr.cpp">
+      <Filter>framework\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\gui\Popup.cpp">
+      <Filter>framework\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\network\socket\PacketHeaderAnalyze.cpp">
+      <Filter>framework\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\network\socket\InPacket.cpp">
+      <Filter>framework\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\network\socket\OutPacket.cpp">
+      <Filter>framework\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\utility\Localization.cpp">
+      <Filter>framework\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\utility\DataUtility.cpp">
+      <Filter>framework\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\libs\pugixml\pugixml.cpp">
+      <Filter>framework\libs\pugixml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\utility\StringUtils.cpp">
+      <Filter>framework\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\utility\Utility.cpp">
+      <Filter>framework\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\utility\ClientConfig.cpp">
+      <Filter>framework\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\animation\Animation.cpp">
+      <Filter>framework\dragonbones\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\animation\AnimationState.cpp">
+      <Filter>framework\dragonbones\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\animation\TimelineState.cpp">
+      <Filter>framework\dragonbones\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\animation\WorldClock.cpp">
+      <Filter>framework\dragonbones\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\core\Armature.cpp">
+      <Filter>framework\dragonbones\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\core\Bone.cpp">
+      <Filter>framework\dragonbones\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\core\Object.cpp">
+      <Filter>framework\dragonbones\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\core\Slot.cpp">
+      <Filter>framework\dragonbones\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\events\EventData.cpp">
+      <Filter>framework\dragonbones\events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\factories\BaseFactory.cpp">
+      <Filter>framework\dragonbones\factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\renderer\DBCCArmature.cpp">
+      <Filter>framework\dragonbones\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\renderer\DBCCArmatureNode.cpp">
+      <Filter>framework\dragonbones\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\renderer\DBCCFactory.cpp">
+      <Filter>framework\dragonbones\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\renderer\DBCCSlot.cpp">
+      <Filter>framework\dragonbones\renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\parsers\BaseDataParser.cpp">
+      <Filter>framework\dragonbones\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\parsers\ConstValues.cpp">
+      <Filter>framework\dragonbones\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\parsers\dbtinyxml2.cpp">
+      <Filter>framework\dragonbones\parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\dragonbones\parsers\XMLDataParser.cpp">
+      <Filter>framework\dragonbones\parsers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

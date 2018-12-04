@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{32f3d9a8-d927-45f9-9410-9857a78e5392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\network">
+      <UniqueIdentifier>{6e348749-50fc-4468-a1d4-054bfc37621e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\network\socket">
+      <UniqueIdentifier>{ec75b7a2-d157-430a-b682-05466ba09864}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\platform">
+      <UniqueIdentifier>{4dfb0832-3410-494a-a68e-8619d5431084}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\BaseFramework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\FrameworkDelegate.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FrameworkMacros.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\network\socket\CommonSocket.h">
+      <Filter>Framework\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\network\socket\DefaultSocket.h">
+      <Filter>Framework\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\network\socket\GsnClient.h">
+      <Filter>Framework\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\network\socket\InPacket.h">
+      <Filter>Framework\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\network\socket\OutPacket.h">
+      <Filter>Framework\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\network\socket\PacketHeaderAnalyze.h">
+      <Filter>Framework\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\network\socket\sPackage.h">
+      <Filter>Framework\network\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\framework\platform\NativeService.h">
+      <Filter>Framework\platform</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\framework\network\socket\DefaultSocket.cpp">
+      <Filter>Framework\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\network\socket\GsnClient.cpp">
+      <Filter>Framework\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\network\socket\InPacket.cpp">
+      <Filter>Framework\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\network\socket\OutPacket.cpp">
+      <Filter>Framework\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\network\socket\PacketHeaderAnalyze.cpp">
+      <Filter>Framework\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\network\socket\sPackage.cpp">
+      <Filter>Framework\network\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\FrameworkDelegate.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\framework\platform\NativeService.cpp">
+      <Filter>Framework\platform</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="renderer">
+      <UniqueIdentifier>{e07a3b72-c924-49c4-8ce1-5c4382bc57d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="animation">
+      <UniqueIdentifier>{ea6d4419-8814-4e87-b8e8-57d45e3696a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core">
+      <UniqueIdentifier>{e401250b-5ee8-43d6-b0fc-c777fe29ee29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="events">
+      <UniqueIdentifier>{c98500e0-5b37-418d-b70e-55deff5830b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="factories">
+      <UniqueIdentifier>{c1ef1a41-491d-4152-962c-e69feb4e5391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="geoms">
+      <UniqueIdentifier>{706004a6-6a54-433b-b467-1dbdcece1f01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="objects">
+      <UniqueIdentifier>{1ce41786-5ce5-47bd-8f24-33dad9ff90ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="parsers">
+      <UniqueIdentifier>{41d273aa-5ae0-4c26-8955-33f81ed00ece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="textures">
+      <UniqueIdentifier>{f37c0d71-0f78-406b-9ce7-3703598cccc1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\DragonBones.h" />
+    <ClInclude Include="..\DragonBonesHeaders.h" />
+    <ClInclude Include="..\animation\Animation.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\animation\AnimationState.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\animation\IAnimatable.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\animation\TimelineState.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\animation\WorldClock.h">
+      <Filter>animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\Armature.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\Bone.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\Object.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\core\Slot.h">
+      <Filter>core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\events\EventData.h">
+      <Filter>events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\events\IEventDispatcher.h">
+      <Filter>events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\factories\BaseFactory.h">
+      <Filter>factories</Filter>
+    </ClInclude>
+    <ClInclude Include="..\geoms\ColorTransform.h">
+      <Filter>geoms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\geoms\Matrix.h">
+      <Filter>geoms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\geoms\Point.h">
+      <Filter>geoms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\geoms\Rectangle.h">
+      <Filter>geoms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\geoms\Transform.h">
+      <Filter>geoms</Filter>
+    </ClInclude>
+    <ClInclude Include="..\objects\AnimationData.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\objects\ArmatureData.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\objects\BoneData.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\objects\DisplayData.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\objects\DragonBonesData.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\objects\EllipseData.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\objects\Frame.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\objects\IAreaData.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\objects\RectangleData.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\objects\SkinData.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\objects\SlotData.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\objects\TextData.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\objects\Timeline.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\objects\TransformFrame.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\objects\TransformTimeline.h">
+      <Filter>objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\parsers\BaseDataParser.h">
+      <Filter>parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\parsers\ConstValues.h">
+      <Filter>parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\parsers\dbtinyxml2.h">
+      <Filter>parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\parsers\XMLDataParser.h">
+      <Filter>parsers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\DBCCArmatureNode.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\DBCCEventDispatcher.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\DBCCFactory.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\DBCCLuaUtils.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\dbccMacro.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\DBCCRenderHeaders.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\DBCCSlot.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\DBCCTextureAtlas.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\textures\ITextureAtlas.h">
+      <Filter>textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\textures\TextureAtlasData.h">
+      <Filter>textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\textures\TextureData.h">
+      <Filter>textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\PlistDataParser.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\DBCCSprite.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\DBCCHelper.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\renderer\DBCCArmature.h">
+      <Filter>renderer</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\animation\Animation.cpp">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\animation\AnimationState.cpp">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\animation\TimelineState.cpp">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\animation\WorldClock.cpp">
+      <Filter>animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\Armature.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\Bone.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\Object.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\core\Slot.cpp">
+      <Filter>core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\events\EventData.cpp">
+      <Filter>events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\factories\BaseFactory.cpp">
+      <Filter>factories</Filter>
+    </ClCompile>
+    <ClCompile Include="..\parsers\BaseDataParser.cpp">
+      <Filter>parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\parsers\ConstValues.cpp">
+      <Filter>parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\parsers\dbtinyxml2.cpp">
+      <Filter>parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\parsers\XMLDataParser.cpp">
+      <Filter>parsers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\DBCCArmature.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\DBCCArmatureNode.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\DBCCFactory.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\DBCCLuaUtils.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\DBCCSlot.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\PlistDataParser.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\DBCCSprite.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\renderer\DBCCHelper.cpp">
+      <Filter>renderer</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

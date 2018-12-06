@@ -1,11 +1,11 @@
 /**
- * Created by CPU02302_LOCAL on 12/4/2018.
+ * Created by CPU02302_LOCAL on 12/6/2018.
  */
 
 
-var CentralLayer = cc.Layer.extend({
+var MapLayer = cc.Layer.extend({
 
-    nScale: 1.5,
+    nScale: 2,
 
     ctor:function () {
         this._super();
@@ -26,9 +26,10 @@ var CentralLayer = cc.Layer.extend({
         label.y = winSize.height / 2;
 
         this.initBackground();
-        this.setScale(this.nScale);
+
         this.addKeyboardListener();
-        this.addTouchListener();
+        //this.setScale(this.nScale);
+        this.schedule(this.update, 0.1);
 
         return true;
     },
@@ -72,41 +73,27 @@ var CentralLayer = cc.Layer.extend({
 
     addKeyboardListener: function () {
         var self = this;
-
         cc.eventManager.addListener({
             event: cc.EventListener.KEYBOARD,
             onKeyPressed: function(key, event) {
                 if (key == 40) {
-                    if (self.nScale >= 1.1) {
-                        self.nScale -= 0.1;
-                    }
+                    if (this.nScale > 1)
+                        this.nScale -= 0.1;
                 }
                 else if (key == 38) {
-                    if (self.nScale <= 2.9) {
-                        self.nScale += 0.1;
-                    }
+                    if (this.nScale < 2)
+                        this.nScale += 0.1;
                 }
+
             },
             onKeyReleased: function(key, event) {
-                self.setScale(self.nScale);
             }
         }, this);
     },
 
-    addTouchListener: function() {
-        //Add code here
-        var self = this;
-        cc.eventManager.addListener({
-            event: cc.EventListener.TOUCH_ONE_BY_ONE,
-            onTouchBegan: function(touch, event){
-                var x = touch.getLocation().x;
-                var y = touch.getLocation().y;
-                cc.log(x, y);
-                return true;
-            }
-        }, this);
+    update: function() {
+        this.setScale(this.nScale);
     }
-
 });
 
 CentralLayer.scene = function() {

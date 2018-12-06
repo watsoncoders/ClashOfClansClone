@@ -21,6 +21,7 @@
         "src/GameBody/LoginScene/LoginLayer.js",
         "src/GameBody/LoginScene/LoginScene.js",
         "src/GameControl/GameControl.js",
-        "src/GameControl/SceneManager.js"
+        "src/GameControl/SceneManager.js",
+        "src/GameData/Resource.js"
     ]
 }

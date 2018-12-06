@@ -16,8 +16,6 @@ var CentralScene = cc.Class.extend({
         return true;
     }
 
-
-
 });
 
 CentralScene.create = function() {
